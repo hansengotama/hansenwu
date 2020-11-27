@@ -1,8 +1,11 @@
-@import "./global/color.scss";
-@import "./global/font.scss";
+@import "./utils/color.scss";
+@import "./utils/font.scss";
 
+$menuHeight: 60px;
 
-body {
-    font-family: "Roboto";
-    width: 50px;
+a, 
+a:hover,
+a:focus, 
+a:active {
+    text-decoration: none;
 }

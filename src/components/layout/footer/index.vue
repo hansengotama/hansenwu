@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <router-view />
+    <div style="height: 100vh">
+        <div>Footer</div>
     </div>
 </template>
 
@@ -8,6 +8,9 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-    name: "App",
 });
 </script>
+
+<style lang="scss" scoped>
+
+</style>
