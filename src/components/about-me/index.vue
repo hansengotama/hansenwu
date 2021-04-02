@@ -1,9 +1,9 @@
 <template>
-    <div id="about-me-photo" class="animate__animated animate__fadeIn">
+    <div id="about-me-photo">
         <img src="/src/assets/images/hansen.png" alt="" />
     </div>
     <div id="about-me">
-        <div class="container animate__animated animate__slideInUp">
+        <div class="container">
             <div class="name-container">
                 <div class="name">
                     Hansen <br />
