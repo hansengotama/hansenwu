@@ -40,7 +40,6 @@
                     <span>hansenwu98@gmail.com</span>
                 </div>
                 <div class="location">
-                    <fa icon="location-arrow" type="fas"></fa>
                     <span>Jakarta, Indonesia</span>
                 </div>
             </div>
