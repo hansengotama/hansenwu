@@ -37,6 +37,7 @@ export default defineComponent({
 #project {
     @include text-cannot-edit;
     padding: 20px;
+    padding-bottom: 70px;
     background: $darkNavy;
     font-family: "Roboto";  
 

@@ -4,7 +4,6 @@ export default ref([
     {
         name: "Event Tracker",
         src: "/portofolio/event-tracker.jpg",
-        showInHomePage: true,
         description: `
             <p>
             Tech Stack: <br>
