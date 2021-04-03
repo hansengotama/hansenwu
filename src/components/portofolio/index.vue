@@ -80,6 +80,8 @@
         position: relative;
 
         .image {
+          display: flex;
+
           img {
             width: 100%;
             opacity: 0.5;
@@ -125,14 +127,10 @@
         }
       }
 
-      @media (max-width: 1000px) {
+      @media (max-width: 1000px) and (min-width: 720px) {
         .images {
           .portofolio-description {
             top: 30%;
-
-            .title {
-              font-size: 18px;
-            }
 
             .button {
               margin-top: 5px;
@@ -145,9 +143,10 @@
         }
       }
 
-      @media (max-width: 720px) {
+      @media (max-width: 720px) and (min-width: 450px) {
        .images {
           grid-template-columns: repeat(2, 1fr);
+          grid-gap: 5px;
 
           .portofolio-description {
             top: 42%;
@@ -168,6 +167,9 @@
 
       @media (max-width: 450px) {
        .images {
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 5px;
+
          .portofolio-description {
             top: 40%;
           }

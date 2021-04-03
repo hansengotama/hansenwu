@@ -1,11 +1,17 @@
 <template>
-    <div class="coming-soon">
-        Coming soon
+    <div class="taggbox-container" style="width:100%;height:100%;overflow: auto;">
+        <div class="taggbox-socialwall" data-wall-id="54298" view-url="https://widget.taggbox.com/54298"></div>
     </div>
 </template>
 
 <script setup lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, onMounted } from "vue";
+
+onMounted(() => {
+    let recaptchaScript = document.createElement('script')
+    recaptchaScript.setAttribute('src', 'https://widget.taggbox.com/embed.min.js')
+    document.head.appendChild(recaptchaScript)
+});
 
 export default defineComponent({
     name: "Experience",
@@ -15,16 +21,4 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "./src/scss/index.scss";
 
-.coming-soon {
-    @include text-cannot-edit;
-    text-align: center;
-    color: $white;
-    font-family: "Futura";
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    min-height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 </style>
