@@ -8,6 +8,7 @@
 import { defineComponent, onMounted } from "vue";
 
 onMounted(() => {
+    // https://taggbox.com/
     let recaptchaScript = document.createElement('script')
     recaptchaScript.setAttribute('src', 'https://widget.taggbox.com/embed.min.js')
     document.head.appendChild(recaptchaScript)
