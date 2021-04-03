@@ -17,12 +17,12 @@ export const routes = [
         },
       },
       {
-        path: "/project",
+        path: "/my-project",
         name: routeName.PROJECT,
         component: () => import("/src/pages/project/index.vue"),
       },
       {
-        path: "/experience",
+        path: "/my-experience",
         name: routeName.EXPERIENCE,
         component: () => import("/src/pages/experience/index.vue"),
       },
