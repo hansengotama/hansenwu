@@ -85,6 +85,7 @@
             height: 100%;
             opacity: 0.5;
             filter: blur(1px);
+            object-fit: cover;
           }
         }
 
