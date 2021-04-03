@@ -35,6 +35,7 @@ export default defineComponent({
 @import "./src/scss/index.scss";
 
 #project {
+    @include text-cannot-edit;
     padding: 20px;
     background: $darkNavy;
     font-family: "Roboto";  

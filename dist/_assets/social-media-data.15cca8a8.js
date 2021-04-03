@@ -1,1 +1,0 @@
-import{h as n}from"./index.90b89fec.js";var a=n([{name:"Linkendin",icon:"linkedin",url:"https://linkedin.com/in/hansengotama/"},{name:"Github",icon:"github",url:"https://github.com/hansengotama"},{name:"Hackerrank",icon:"hackerrank",url:"https://hackerrank.com/hansenwu98"},{name:"Instagram",icon:"instagram",url:"https://instagram.com/hansengotama/"}]);export{a as s};

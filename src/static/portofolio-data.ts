@@ -1,7 +1,21 @@
 import { ref } from "vue";
 
 export default ref([
-
+    {
+        name: "Event Tracker",
+        src: "/portofolio/event-tracker.jpg",
+        showInHomePage: true,
+        description: `
+            <p>
+            Tech Stack: <br>
+            - Flutter <br>
+            - Sqlite <br>
+            <br>
+            You can access the video   
+            <a href="https://www.youtube.com/watch?v=m1o9LBP-9NI" target="_blank" style="color: white">here</a>
+            </p>
+        `
+    },
     {
         name: "Pattidana CDM",
         src: "/portofolio/pattidana.jpg",
