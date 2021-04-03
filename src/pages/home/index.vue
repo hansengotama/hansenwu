@@ -2,6 +2,7 @@
     <div id="home">
         <AboutMe />
         <Skill />
+        <Portofolio />
         <ContactMe />
     </div>
 </template>
@@ -10,6 +11,7 @@
 import { defineComponent } from "vue";
 import AboutMe from "/src/components/about-me/index.vue";
 import Skill from "/src/components/skill/index.vue";
+import Portofolio from "/src/components/portofolio/index.vue";
 import ContactMe from "/src/components/contact-me/index.vue";
 
 export default defineComponent({
@@ -18,6 +20,7 @@ export default defineComponent({
         AboutMe,
         Skill,
         ContactMe,
+        Portofolio,
     },
 });
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <div id="skill" class="test">
+    <div id="skill">
       <div class="container">
         <div class="title">
           Skills
@@ -43,14 +43,13 @@
 
   export const changeType = (changedType) => {
     type.value = changedType
-    console.log(type)
   };
 </script>
 
 <style lang="scss" scoped>
 @import "./src/scss/index.scss";
 
-.test {
+#skill {
   @include text-cannot-edit;
   
   background: $darkNavy;

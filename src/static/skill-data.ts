@@ -43,6 +43,10 @@ export default ref({
   ],
   others: [
     {
+      name: "Node Js",
+      url: "/skill/nodejs.png"
+    },
+    {
       name: "HTML",
       url: "/skill/html.png"
     },
