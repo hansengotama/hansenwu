@@ -27,7 +27,7 @@ import portofolioStaticData from "/src/static/portofolio-data.ts";
 
 export const portofolioData = portofolioStaticData;
 export default defineComponent({
-    name: "Experience",
+    name: "Project",
 });
 </script>
 
