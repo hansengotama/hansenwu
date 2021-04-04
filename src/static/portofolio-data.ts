@@ -2,6 +2,17 @@ import { ref } from "vue";
 
 export default ref([
     {
+        name: "My Personal Website",
+        src: "/portofolio/hansenwu.jpg",
+        description: `
+            <p>
+            Tech Stack: <br>
+            - Vue 3 <br>
+            - TypeScript <br>
+            </p>
+        `
+    },
+    {
         name: "Event Tracker",
         src: "/portofolio/event-tracker.jpg",
         description: `
