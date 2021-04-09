@@ -1,9 +1,9 @@
 <template>
     <div id="skill">
       <div class="container">
-        <div class="title">
+        <h1 class="title">
           Skills
-        </div>
+        </h1>
         <div class="skill-types">
           <div class="type" 
             @click="changeType('language')" 
@@ -58,9 +58,10 @@
     padding: 40px 80px;
 
     .title {
-      font-family: "Futura";
+      font-family: "Futura", sans-serif;
       color: $white;
       margin-bottom: 20px;
+      font-size: 16px;
     }
 
     .skill-types {

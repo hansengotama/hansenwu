@@ -1,8 +1,8 @@
 <template>
     <div id="experience">
-        <div class="title">
+        <h1 class="title">
             My Experience
-        </div>
+        </h1>
         <div class="container">
             <div class="work-container">
                 <div class="work-title">
@@ -108,7 +108,9 @@ hr {
     font-family: "Roboto";  
 
     .title {
+        font-family: "Futura", sans-serif;
         color: $white;
+        font-size: 16px;
     }
 
     .container {

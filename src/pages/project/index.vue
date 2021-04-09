@@ -1,8 +1,8 @@
 <template>
     <div id="project">
-        <div class="title">
+        <h1 class="title">
             My Projects
-        </div>
+        </h1>
         <div class="container">
             <div class="project-container" v-for="(data, index) in portofolioData" :key="index">
                 <div class="image">
@@ -42,7 +42,9 @@ export default defineComponent({
     font-family: "Roboto";  
 
     .title {
+        font-family: "Futura", sans-serif;
         color: $white;
+        font-size: 16px;
     }
 
     .container {
