@@ -155,7 +155,7 @@ hr {
                             .work-time {
                                 color: $white;
                                 padding-top: 5px;
-                                font-size: 12px;
+                                font-size: 13px;
                             }
                         }
                     }
@@ -203,7 +203,7 @@ hr {
                             .organization-time {
                                 color: $white;
                                 padding-top: 5px;
-                                font-size: 12px;
+                                font-size: 13px;
                             }
                         }
                     }
@@ -251,7 +251,7 @@ hr {
                             .event-time {
                                 color: $white;
                                 padding-top: 5px;
-                                font-size: 12px;
+                                font-size: 13px;
                             }
                         }
                     }

@@ -12,7 +12,7 @@ export default ref({
                     time: "Sept 2022 - Present"
                 },
                 {
-                    text: "Full Stack Developer",
+                    text: "Software Engineer",
                     time: "Jan 2021 - Agust 2022"
                 }
             ],
