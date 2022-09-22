@@ -8,8 +8,12 @@ export default ref({
             link: "https://www.pinhome.id",
             roles: [
                 {
+                    text: "Senior Software Engineer",
+                    time: "Sept 2022 - Present"
+                },
+                {
                     text: "Full Stack Developer",
-                    time: "Jan 2021 - Present"
+                    time: "Jan 2021 - Agust 2022"
                 }
             ],
         },

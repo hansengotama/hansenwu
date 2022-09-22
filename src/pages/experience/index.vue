@@ -154,6 +154,8 @@ hr {
 
                             .work-time {
                                 color: $white;
+                                padding-top: 5px;
+                                font-size: 12px;
                             }
                         }
                     }
@@ -200,6 +202,8 @@ hr {
 
                             .organization-time {
                                 color: $white;
+                                padding-top: 5px;
+                                font-size: 12px;
                             }
                         }
                     }
@@ -246,6 +250,8 @@ hr {
 
                             .event-time {
                                 color: $white;
+                                padding-top: 5px;
+                                font-size: 12px;
                             }
                         }
                     }
